@@ -1,0 +1,18 @@
+    1  pwd
+    2  git push origin main
+    3  mkdir A140428
+    4  cd A140428
+    5  pwd
+    6  touch README.md
+    7  cd ..
+    8  pwd
+    9  history > cmdtask2.txt
+    10 git add *
+    11 git commit -m " 2.ª tarefa concluída."
+    12 git push origin main
+    13 git pull origin main
+    14 cp index.html disciplina.html
+    15 git add disciplina.html
+    16 git commit -m "Cria disciplina.html a partir de index.html"
+    17 git push origin main
+    18 history > meusComandosCodespace.txt
