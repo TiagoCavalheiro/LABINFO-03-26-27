@@ -1,0 +1,81 @@
+NOME: Tiago Cavalheiro
+NMEC: 140428
+
+/workspaces/LABINFO-03-26-27
+
+#Parte 1
+git add identificacao.txt
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+git push origin main
+
+#Parte 2
+mkdir A140428
+cd A140428
+pwd
+touch README.md
+cd ..
+pwd
+history > cmdtask2.txt
+git add *
+git commit -m " 2.ª tarefa concluída."
+git push origin main
+
+#Parte 3
+git commit -m "3.ª tarefa concluída"
+git push origin main
+
+##Parte 4
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push origin main
+
+#Codespace
+git pull origin main
+cp index.html disciplina.html
+git add disciplina.html
+git commit -m "Cria disciplina.html a partir de index.html"
+git push origin main
+
+#Computador
+git add *
+git commit -m "5.ª tarefa cumprida"
+git push origin main
+
+ === Comandos do Codespace ===
+
+    1  pwd
+    2  git push origin main
+    3  mkdir A140428
+    4  cd A140428
+    5  pwd
+    6  touch README.md
+    7  cd ..
+    8  pwd
+    9  history > cmdtask2.txt
+    10 git add *
+    11 git commit -m " 2.ª tarefa concluída."
+    12 git push origin main
+    13 git pull origin main
+    14 cp index.html disciplina.html
+    15 git add disciplina.html
+    16 git commit -m "Cria disciplina.html a partir de index.html"
+    17 git push origin main
+    18 history > meusComandosCodespace.txt
+
+
+ === Comandos do Computador ===
+
+2026-11-18 12:39:18 git pull origin main
+2026-11-18 12:26:18 git commit -m "5.ª tarefa cumprida"
+2026-11-18 12:16:31 git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+2026-11-18 12:01:33 git commit -m "3.ª tarefa concluída"
+2026-11-18 11:54:06 git clone https://github.com/TiagoCavalheiro/LABINFO-03-26-27.git
+
+
+
+
+
+#Comandos extra
+
+git add *
+git commit -m "Tarefa 6 cumprida"
+git push origin main
