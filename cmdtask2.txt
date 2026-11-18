@@ -1,0 +1,9 @@
+    1  pwd
+    2  git push origin main
+    3  mkdir A140428
+    4  cd A140428
+    5  pwd
+    6  touch README.md
+    7  cd ..
+    8  pwd
+    9  history > cmdtask2.txt
