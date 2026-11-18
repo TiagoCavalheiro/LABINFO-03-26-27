@@ -4,10 +4,58 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <style>
+    body {
+      background-color: #ffffff;
+      color:black;
+    }
+
+    .painel {
+      max-width: 1232px;
+      min-height: calc(100vh - 3rem);
+    }
+
+    .descricao {
+      max-width: 600px;
+    }
+  </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Lab Info</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="disciplina.html">A disciplina</a>
+          </li>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
-  </body>
+  <main class="container-fluid painel bg-white rounded-1 px-0 my-4">
+    <header class="text-center pt-5 pb-3 px-3 px-md-5">
+      <h1 class="display-5 fw-bold">
+        Documento base para uma página HTML baseada em Bootstrap
+      </h1>
+
+      <p class="descricao mx-auto mb-3">
+        Usa um CDN para definir as referências para as dependências necessárias
+        e contém um menu no topo da página!
+      </p>
+
+      <small>Bootstrap 5.3</small>
+    </header>
+  </main>
+</body>
 </html>
